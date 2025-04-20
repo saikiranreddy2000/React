@@ -6,7 +6,9 @@
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
-    "eject": "npm run build && git add dist && git commit -m 'Deploy to GitHub Pages' && git subtree push --prefix dist origin gh-pages"
+    "eject": "parcel eject",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "author": "saikiran",
   "license": "ISC",
