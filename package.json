@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "description": "its just my practice",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
     "eject": "parcel eject",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+  
   },
   "author": "saikiran",
   "license": "ISC",
-  "homepage": "http://saikiranreddy2000.github.io/React/",
+  "homepage": "https://saikiranreddy2000.github.io/React",
   "devDependencies": {
     "@babel/core": "^7.24.3",
     "@babel/preset-env": "^7.24.3",
