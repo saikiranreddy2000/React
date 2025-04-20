@@ -39,7 +39,7 @@ const appRouters = createBrowserRouter([
     path: "/",
     element: <Apptemplate />,
     children: [
-      { path: "/React", element: <Bodytemplate /> },
+      { path: "/", element: <Bodytemplate /> },
       { path: "/contact", element: <Contact /> },
       {
         path: "/aboutus",
