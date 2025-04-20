@@ -64,7 +64,11 @@ const appRouters = createBrowserRouter([
     ],
     errorElement: <Error />,
   },
-]);
+],
+{
+  basename: "/React", // Add this line (replace 'React' with your repository name)
+}
+);
 
 const root = ReactDOM.createRoot(document.getElementById("container"));
 root.render(<RouterProvider router={appRouters} />);
