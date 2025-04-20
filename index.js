@@ -6,7 +6,6 @@ import { Bodytemplate } from "./src/Body";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Contact from "./src/Contact";
 import { Error } from "./src/Error";
-import RestaurantDetails from "./src/RestaurantDetails";
 import { UserContext } from "./asserts/UserContext";
 import { Provider } from "react-redux";
 import appStore from "./asserts/appStore";
